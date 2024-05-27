@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ob:Openbravo xmlns:ob="http://www.openbravo.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <obuiapp_ViewRoleAccess id="067237F8420A4EA0B5A8AFB2B3625146" identifier="OBEXAPP_HelloWorldLabelView - RoleA">
+    <id>067237F8420A4EA0B5A8AFB2B3625146</id>
+    <viewImplementation id="7883BFF602B4449087A3A65A0DC72E5B" entity-name="OBUIAPP_View_Implementation" identifier="OBEXAPP_HelloWorldLabelView"/>
+    <role id="1000007" entity-name="ADRole" identifier="RoleA"/>
+    <active>true</active>
+    <creationDate transient="true">2010-06-03T21:52:19.0Z</creationDate>
+    <createdBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+    <updated transient="true">2010-06-03T21:52:19.0Z</updated>
+    <updatedBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+  </obuiapp_ViewRoleAccess>
+  <obuiapp_ViewRoleAccess id="0F11F72601B54C18A85278DDC055FE50" identifier="OBEXAPP_HelloWorldLabelView - Openbravo Admin">
+    <id>0F11F72601B54C18A85278DDC055FE50</id>
+    <viewImplementation id="7883BFF602B4449087A3A65A0DC72E5B" entity-name="OBUIAPP_View_Implementation" identifier="OBEXAPP_HelloWorldLabelView"/>
+    <role id="1000004" entity-name="ADRole" identifier="Openbravo Admin"/>
+    <active>true</active>
+    <creationDate transient="true">2010-06-03T21:52:19.0Z</creationDate>
+    <createdBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+    <updated transient="true">2010-06-03T21:52:19.0Z</updated>
+    <updatedBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+  </obuiapp_ViewRoleAccess>
+  <obuiapp_ViewRoleAccess id="110AFE564D2A4FD4AC542D12C9D73DB1" identifier="OBEXAPP_HelloWorldView - RoleB">
+    <id>110AFE564D2A4FD4AC542D12C9D73DB1</id>
+    <viewImplementation id="118334A957224769A85B2DAE9F41CE96" entity-name="OBUIAPP_View_Implementation" identifier="OBEXAPP_HelloWorldView"/>
+    <role id="1000008" entity-name="ADRole" identifier="RoleB"/>
+    <active>true</active>
+    <creationDate transient="true">2010-06-03T21:52:04.0Z</creationDate>
+    <createdBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+    <updated transient="true">2010-06-03T21:52:04.0Z</updated>
+    <updatedBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+  </obuiapp_ViewRoleAccess>
+  <obuiapp_ViewRoleAccess id="17EBD44D047E4D2BA8A50429A34EB8F0" identifier="OBEXAPP_HelloWorldView - Openbravo Admin">
+    <id>17EBD44D047E4D2BA8A50429A34EB8F0</id>
+    <viewImplementation id="118334A957224769A85B2DAE9F41CE96" entity-name="OBUIAPP_View_Implementation" identifier="OBEXAPP_HelloWorldView"/>
+    <role id="1000004" entity-name="ADRole" identifier="Openbravo Admin"/>
+    <active>true</active>
+    <creationDate transient="true">2010-06-03T21:52:04.0Z</creationDate>
+    <createdBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+    <updated transient="true">2010-06-03T21:52:04.0Z</updated>
+    <updatedBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+  </obuiapp_ViewRoleAccess>
+  <obuiapp_ViewRoleAccess id="1DC81890AC0A4187B72D542C9ADF636F" identifier="OBEXAPP_HelloWorldButtonView - Openbravo Admin">
+    <id>1DC81890AC0A4187B72D542C9ADF636F</id>
+    <viewImplementation id="AF338C068E604FA4ABF2850A2F942801" entity-name="OBUIAPP_View_Implementation" identifier="OBEXAPP_HelloWorldButtonView"/>
+    <role id="1000004" entity-name="ADRole" identifier="Openbravo Admin"/>
+    <active>true</active>
+    <creationDate transient="true">2010-06-03T21:52:25.0Z</creationDate>
+    <createdBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+    <updated transient="true">2010-06-03T21:52:25.0Z</updated>
+    <updatedBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+  </obuiapp_ViewRoleAccess>
+  <obuiapp_ViewRoleAccess id="2370F6A05A84413FA923502B6D6C3D23" identifier="OBEXAPP_HelloWorldView - Accounting Test Admin">
+    <id>2370F6A05A84413FA923502B6D6C3D23</id>
+    <viewImplementation id="118334A957224769A85B2DAE9F41CE96" entity-name="OBUIAPP_View_Implementation" identifier="OBEXAPP_HelloWorldView"/>
+    <role id="1000005" entity-name="ADRole" identifier="Accounting Test Admin"/>
+    <active>true</active>
+    <creationDate transient="true">2010-06-03T21:52:04.0Z</creationDate>
+    <createdBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+    <updated transient="true">2010-06-03T21:52:04.0Z</updated>
+    <updatedBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+  </obuiapp_ViewRoleAccess>
+  <obuiapp_ViewRoleAccess id="295700EF4DE142399F74690A42FE92A2" identifier="OBEXAPP_HelloWorldButtonView - RoleB">
+    <id>295700EF4DE142399F74690A42FE92A2</id>
+    <viewImplementation id="AF338C068E604FA4ABF2850A2F942801" entity-name="OBUIAPP_View_Implementation" identifier="OBEXAPP_HelloWorldButtonView"/>
+    <role id="1000008" entity-name="ADRole" identifier="RoleB"/>
+    <active>true</active>
+    <creationDate transient="true">2010-06-03T21:52:25.0Z</creationDate>
+    <createdBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+    <updated transient="true">2010-06-03T21:52:25.0Z</updated>
+    <updatedBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+  </obuiapp_ViewRoleAccess>
+  <obuiapp_ViewRoleAccess id="3B89DCE3095E4FAB9C740CACF291A7E4" identifier="OBEXAPP_HelloWorldView - RoleA">
+    <id>3B89DCE3095E4FAB9C740CACF291A7E4</id>
+    <viewImplementation id="118334A957224769A85B2DAE9F41CE96" entity-name="OBUIAPP_View_Implementation" identifier="OBEXAPP_HelloWorldView"/>
+    <role id="1000007" entity-name="ADRole" identifier="RoleA"/>
+    <active>true</active>
+    <creationDate transient="true">2010-06-03T21:52:04.0Z</creationDate>
+    <createdBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+    <updated transient="true">2010-06-03T21:52:04.0Z</updated>
+    <updatedBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+  </obuiapp_ViewRoleAccess>
+  <obuiapp_ViewRoleAccess id="4BC5F1527A90417DB41473ED5DEFC981" identifier="OBEXAPP_HelloWorldView - System Administrator">
+    <id>4BC5F1527A90417DB41473ED5DEFC981</id>
+    <viewImplementation id="118334A957224769A85B2DAE9F41CE96" entity-name="OBUIAPP_View_Implementation" identifier="OBEXAPP_HelloWorldView"/>
+    <role id="0" entity-name="ADRole" identifier="System Administrator"/>
+    <active>true</active>
+    <creationDate transient="true">2010-06-03T21:52:04.0Z</creationDate>
+    <createdBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+    <updated transient="true">2010-06-03T21:52:04.0Z</updated>
+    <updatedBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+  </obuiapp_ViewRoleAccess>
+  <obuiapp_ViewRoleAccess id="7AF46FA3916B44CD9B150AD95D55C309" identifier="OBEXAPP_HelloWorldLabelView - System Administrator">
+    <id>7AF46FA3916B44CD9B150AD95D55C309</id>
+    <viewImplementation id="7883BFF602B4449087A3A65A0DC72E5B" entity-name="OBUIAPP_View_Implementation" identifier="OBEXAPP_HelloWorldLabelView"/>
+    <role id="0" entity-name="ADRole" identifier="System Administrator"/>
+    <active>true</active>
+    <creationDate transient="true">2010-06-03T21:52:19.0Z</creationDate>
+    <createdBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+    <updated transient="true">2010-06-03T21:52:19.0Z</updated>
+    <updatedBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+  </obuiapp_ViewRoleAccess>
+  <obuiapp_ViewRoleAccess id="881B97C8BFE64915B1ED6E0CDF6BFE30" identifier="OBEXAPP_HelloWorldLabelView - RoleB">
+    <id>881B97C8BFE64915B1ED6E0CDF6BFE30</id>
+    <viewImplementation id="7883BFF602B4449087A3A65A0DC72E5B" entity-name="OBUIAPP_View_Implementation" identifier="OBEXAPP_HelloWorldLabelView"/>
+    <role id="1000008" entity-name="ADRole" identifier="RoleB"/>
+    <active>true</active>
+    <creationDate transient="true">2010-06-03T21:52:19.0Z</creationDate>
+    <createdBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+    <updated transient="true">2010-06-03T21:52:19.0Z</updated>
+    <updatedBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+  </obuiapp_ViewRoleAccess>
+  <obuiapp_ViewRoleAccess id="8B6CF9DED4B34BF8B3593440863F057D" identifier="OBEXAPP_HelloWorldLabelView - RoleB11">
+    <id>8B6CF9DED4B34BF8B3593440863F057D</id>
+    <viewImplementation id="7883BFF602B4449087A3A65A0DC72E5B" entity-name="OBUIAPP_View_Implementation" identifier="OBEXAPP_HelloWorldLabelView"/>
+    <role id="1000009" entity-name="ADRole" identifier="RoleB11"/>
+    <active>true</active>
+    <creationDate transient="true">2010-06-03T21:52:19.0Z</creationDate>
+    <createdBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+    <updated transient="true">2010-06-03T21:52:19.0Z</updated>
+    <updatedBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+  </obuiapp_ViewRoleAccess>
+  <obuiapp_ViewRoleAccess id="8D9F14B5C725419B963B07BEAE601305" identifier="OBEXAPP_HelloWorldLabelView - Accounting Test User">
+    <id>8D9F14B5C725419B963B07BEAE601305</id>
+    <viewImplementation id="7883BFF602B4449087A3A65A0DC72E5B" entity-name="OBUIAPP_View_Implementation" identifier="OBEXAPP_HelloWorldLabelView"/>
+    <role id="1000006" entity-name="ADRole" identifier="Accounting Test User"/>
+    <active>true</active>
+    <creationDate transient="true">2010-06-03T21:52:19.0Z</creationDate>
+    <createdBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+    <updated transient="true">2010-06-03T21:52:19.0Z</updated>
+    <updatedBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+  </obuiapp_ViewRoleAccess>
+  <obuiapp_ViewRoleAccess id="A19D62F1DFBB4D90836056F43512A858" identifier="OBEXAPP_HelloWorldView - RoleB11">
+    <id>A19D62F1DFBB4D90836056F43512A858</id>
+    <viewImplementation id="118334A957224769A85B2DAE9F41CE96" entity-name="OBUIAPP_View_Implementation" identifier="OBEXAPP_HelloWorldView"/>
+    <role id="1000009" entity-name="ADRole" identifier="RoleB11"/>
+    <active>true</active>
+    <creationDate transient="true">2010-06-03T21:52:04.0Z</creationDate>
+    <createdBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+    <updated transient="true">2010-06-03T21:52:04.0Z</updated>
+    <updatedBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+  </obuiapp_ViewRoleAccess>
+  <obuiapp_ViewRoleAccess id="BD3368EE92224E8EB7EC87AB323A5398" identifier="OBEXAPP_HelloWorldView - Accounting Test User">
+    <id>BD3368EE92224E8EB7EC87AB323A5398</id>
+    <viewImplementation id="118334A957224769A85B2DAE9F41CE96" entity-name="OBUIAPP_View_Implementation" identifier="OBEXAPP_HelloWorldView"/>
+    <role id="1000006" entity-name="ADRole" identifier="Accounting Test User"/>
+    <active>true</active>
+    <creationDate transient="true">2010-06-03T21:52:04.0Z</creationDate>
+    <createdBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+    <updated transient="true">2010-06-03T21:52:04.0Z</updated>
+    <updatedBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+  </obuiapp_ViewRoleAccess>
+  <obuiapp_ViewRoleAccess id="CA15C871DC844A8BB9D7C65D5E071F37" identifier="OBEXAPP_HelloWorldLabelView - Accounting Test Admin">
+    <id>CA15C871DC844A8BB9D7C65D5E071F37</id>
+    <viewImplementation id="7883BFF602B4449087A3A65A0DC72E5B" entity-name="OBUIAPP_View_Implementation" identifier="OBEXAPP_HelloWorldLabelView"/>
+    <role id="1000005" entity-name="ADRole" identifier="Accounting Test Admin"/>
+    <active>true</active>
+    <creationDate transient="true">2010-06-03T21:52:19.0Z</creationDate>
+    <createdBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+    <updated transient="true">2010-06-03T21:52:19.0Z</updated>
+    <updatedBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+  </obuiapp_ViewRoleAccess>
+  <obuiapp_ViewRoleAccess id="CC27A18E85A54620A05631033A5FF54A" identifier="OBEXAPP_HelloWorldButtonView - Accounting Test Admin">
+    <id>CC27A18E85A54620A05631033A5FF54A</id>
+    <viewImplementation id="AF338C068E604FA4ABF2850A2F942801" entity-name="OBUIAPP_View_Implementation" identifier="OBEXAPP_HelloWorldButtonView"/>
+    <role id="1000005" entity-name="ADRole" identifier="Accounting Test Admin"/>
+    <active>true</active>
+    <creationDate transient="true">2010-06-03T21:52:25.0Z</creationDate>
+    <createdBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+    <updated transient="true">2010-06-03T21:52:25.0Z</updated>
+    <updatedBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+  </obuiapp_ViewRoleAccess>
+  <obuiapp_ViewRoleAccess id="CF55A260308341A1B6FA1FB4469246B6" identifier="OBEXAPP_HelloWorldButtonView - RoleB11">
+    <id>CF55A260308341A1B6FA1FB4469246B6</id>
+    <viewImplementation id="AF338C068E604FA4ABF2850A2F942801" entity-name="OBUIAPP_View_Implementation" identifier="OBEXAPP_HelloWorldButtonView"/>
+    <role id="1000009" entity-name="ADRole" identifier="RoleB11"/>
+    <active>true</active>
+    <creationDate transient="true">2010-06-03T21:52:25.0Z</creationDate>
+    <createdBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+    <updated transient="true">2010-06-03T21:52:25.0Z</updated>
+    <updatedBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+  </obuiapp_ViewRoleAccess>
+  <obuiapp_ViewRoleAccess id="E0AE8156EEA94CE8819303CF0F3B424A" identifier="OBEXAPP_HelloWorldButtonView - RoleA">
+    <id>E0AE8156EEA94CE8819303CF0F3B424A</id>
+    <viewImplementation id="AF338C068E604FA4ABF2850A2F942801" entity-name="OBUIAPP_View_Implementation" identifier="OBEXAPP_HelloWorldButtonView"/>
+    <role id="1000007" entity-name="ADRole" identifier="RoleA"/>
+    <active>true</active>
+    <creationDate transient="true">2010-06-03T21:52:25.0Z</creationDate>
+    <createdBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+    <updated transient="true">2010-06-03T21:52:25.0Z</updated>
+    <updatedBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+  </obuiapp_ViewRoleAccess>
+  <obuiapp_ViewRoleAccess id="E457E79B413C471195739D6293612B11" identifier="OBEXAPP_HelloWorldButtonView - System Administrator">
+    <id>E457E79B413C471195739D6293612B11</id>
+    <viewImplementation id="AF338C068E604FA4ABF2850A2F942801" entity-name="OBUIAPP_View_Implementation" identifier="OBEXAPP_HelloWorldButtonView"/>
+    <role id="0" entity-name="ADRole" identifier="System Administrator"/>
+    <active>true</active>
+    <creationDate transient="true">2010-06-03T21:52:25.0Z</creationDate>
+    <createdBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+    <updated transient="true">2010-06-03T21:52:25.0Z</updated>
+    <updatedBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+  </obuiapp_ViewRoleAccess>
+  <obuiapp_ViewRoleAccess id="F45C8A96EBA146719C0DFE30E7E37101" identifier="OBEXAPP_HelloWorldButtonView - Accounting Test User">
+    <id>F45C8A96EBA146719C0DFE30E7E37101</id>
+    <viewImplementation id="AF338C068E604FA4ABF2850A2F942801" entity-name="OBUIAPP_View_Implementation" identifier="OBEXAPP_HelloWorldButtonView"/>
+    <role id="1000006" entity-name="ADRole" identifier="Accounting Test User"/>
+    <active>true</active>
+    <creationDate transient="true">2010-06-03T21:52:25.0Z</creationDate>
+    <createdBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+    <updated transient="true">2010-06-03T21:52:25.0Z</updated>
+    <updatedBy transient="true" id="0" entity-name="ADUser" identifier="System"/>
+  </obuiapp_ViewRoleAccess>
+</ob:Openbravo>
