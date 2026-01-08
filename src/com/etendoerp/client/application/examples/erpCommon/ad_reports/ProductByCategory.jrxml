@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.3.final using JasperReports Library version 6.0.0  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="ProductSimpleReport" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="11111111-1111-1111-1111-111111111111">
+	<parameter name="M_Product_Category_ID" class="org.codehaus.jettison.json.JSONObject"/>
+	<parameter name="Current_Client_ID" class="java.lang.String"/>
+	<parameter name="AUX_Product_category" class="java.lang.String">
+		<defaultValueExpression><![CDATA[("".equals($P{M_Product_Category_ID}.getString("strValues")))
+        ? " 1 = 1 "
+        : " pc.m_product_category_id IN (" + $P{M_Product_Category_ID}.getString("strValues") + ")"]]></defaultValueExpression>
+	</parameter>
+	<parameter name="OUTPUT_FORMAT" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[SELECT
+  p.m_product_id       AS product_id,
+  p.value              AS search_key,
+  p.name               AS product_name,
+  pc.name              AS category_name
+FROM m_product p
+JOIN m_product_category pc
+  ON p.m_product_category_id = pc.m_product_category_id
+WHERE $P!{AUX_Product_category}
+  AND p.ad_client_id = $P{Current_Client_ID}
+ORDER BY pc.name, p.name
+]]>
+	</queryString>
+	<field name="search_key" class="java.lang.String"/>
+	<field name="product_name" class="java.lang.String"/>
+	<field name="category_name" class="java.lang.String"/>
+	<field name="product_id" class="java.lang.String"/>
+	<title>
+		<band height="50">
+			<textField>
+				<reportElement x="0" y="0" width="555" height="20" uuid="1f460b16-bcb2-4c60-99df-160c5da9777c"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Product Simple Report"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="26" width="555" height="18" uuid="7f269386-d777-442f-ac97-c71ccdcdccbd"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Categories: " + $P{M_Product_Category_ID}.getString("strIdentifiers")]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="18">
+			<staticText>
+				<reportElement x="0" y="0" width="80" height="18" uuid="55b5e65a-dc00-4a42-921d-d0935e4131da"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Search Key]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="80" y="0" width="275" height="18" uuid="333d1f15-6e6b-4362-ab42-cfd735428dfc"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Product]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="355" y="0" width="200" height="18" uuid="a307a01f-cef0-4b3f-ad93-c1ae9c03016d"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Category]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="16">
+			<textField hyperlinkType="Reference">
+				<reportElement x="0" y="0" width="80" height="16" forecolor="#0000FF" uuid="61cce8e8-8dc2-46cb-8544-55a923bb1cb7">
+					<propertyExpression name="net.sf.jasperreports.style.forecolor"><![CDATA[$P{OUTPUT_FORMAT}.equals("HTML")?"#0000FF":"#000000"]]></propertyExpression>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{search_key}]]></textFieldExpression>
+				<hyperlinkReferenceExpression><![CDATA["javascript:top.OB.Utilities.openDirectTab('180', '" + $F{product_id} + "');"]]></hyperlinkReferenceExpression>
+				<hyperlinkWhenExpression><![CDATA[$P{OUTPUT_FORMAT}.equalsIgnoreCase("HTML")? Boolean.TRUE: Boolean.FALSE]]></hyperlinkWhenExpression>
+			</textField>
+			<textField>
+				<reportElement x="80" y="0" width="275" height="16" uuid="5d9976cb-2a86-4132-a33b-9f1efd426ebc"/>
+				<textFieldExpression><![CDATA[$F{product_name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="355" y="0" width="200" height="16" uuid="b9169862-ab66-4faf-8258-7ee18d8f668e"/>
+				<textFieldExpression><![CDATA[$F{category_name}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
